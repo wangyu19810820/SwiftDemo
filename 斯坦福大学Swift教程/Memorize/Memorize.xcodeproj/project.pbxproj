@@ -7,27 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		886AF1A426F4891D00528C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AF1A326F4891D00528C90 /* AppDelegate.swift */; };
-		886AF1A626F4891D00528C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AF1A526F4891D00528C90 /* SceneDelegate.swift */; };
-		886AF1A826F4891D00528C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AF1A726F4891D00528C90 /* ContentView.swift */; };
-		886AF1AA26F4891E00528C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886AF1A926F4891E00528C90 /* Assets.xcassets */; };
-		886AF1AD26F4891E00528C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886AF1AC26F4891E00528C90 /* Preview Assets.xcassets */; };
-		886AF1B026F4891E00528C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886AF1AE26F4891E00528C90 /* LaunchScreen.storyboard */; };
+		886AF1C426F48A6700528C90 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AF1C326F48A6700528C90 /* MemorizeApp.swift */; };
+		886AF1C626F48A6700528C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AF1C526F48A6700528C90 /* ContentView.swift */; };
+		886AF1C826F48A6800528C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886AF1C726F48A6800528C90 /* Assets.xcassets */; };
+		886AF1CB26F48A6800528C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886AF1CA26F48A6800528C90 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		886AF1A026F4891D00528C90 /* SwiftUI程序.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI程序.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		886AF1A326F4891D00528C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		886AF1A526F4891D00528C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		886AF1A726F4891D00528C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		886AF1A926F4891E00528C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		886AF1AC26F4891E00528C90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		886AF1AF26F4891E00528C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		886AF1B126F4891E00528C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886AF1C026F48A6700528C90 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		886AF1C326F48A6700528C90 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
+		886AF1C526F48A6700528C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		886AF1C726F48A6800528C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		886AF1CA26F48A6800528C90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		886AF1CC26F48A6800528C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		886AF19D26F4891D00528C90 /* Frameworks */ = {
+		886AF1BD26F48A6700528C90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		886AF19726F4891D00528C90 = {
+		886AF1B726F48A6700528C90 = {
 			isa = PBXGroup;
 			children = (
-				886AF1A226F4891D00528C90 /* SwiftUI程序 */,
-				886AF1A126F4891D00528C90 /* Products */,
+				886AF1C226F48A6700528C90 /* Memorize */,
+				886AF1C126F48A6700528C90 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		886AF1A126F4891D00528C90 /* Products */ = {
+		886AF1C126F48A6700528C90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				886AF1A026F4891D00528C90 /* SwiftUI程序.app */,
+				886AF1C026F48A6700528C90 /* Memorize.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		886AF1A226F4891D00528C90 /* SwiftUI程序 */ = {
+		886AF1C226F48A6700528C90 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				886AF1A326F4891D00528C90 /* AppDelegate.swift */,
-				886AF1A526F4891D00528C90 /* SceneDelegate.swift */,
-				886AF1A726F4891D00528C90 /* ContentView.swift */,
-				886AF1A926F4891E00528C90 /* Assets.xcassets */,
-				886AF1AE26F4891E00528C90 /* LaunchScreen.storyboard */,
-				886AF1B126F4891E00528C90 /* Info.plist */,
-				886AF1AB26F4891E00528C90 /* Preview Content */,
+				886AF1C326F48A6700528C90 /* MemorizeApp.swift */,
+				886AF1C526F48A6700528C90 /* ContentView.swift */,
+				886AF1C726F48A6800528C90 /* Assets.xcassets */,
+				886AF1CC26F48A6800528C90 /* Info.plist */,
+				886AF1C926F48A6800528C90 /* Preview Content */,
 			);
-			path = "SwiftUI程序";
+			path = Memorize;
 			sourceTree = "<group>";
 		};
-		886AF1AB26F4891E00528C90 /* Preview Content */ = {
+		886AF1C926F48A6800528C90 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				886AF1AC26F4891E00528C90 /* Preview Assets.xcassets */,
+				886AF1CA26F48A6800528C90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		886AF19F26F4891D00528C90 /* SwiftUI程序 */ = {
+		886AF1BF26F48A6700528C90 /* Memorize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 886AF1B426F4891E00528C90 /* Build configuration list for PBXNativeTarget "SwiftUI程序" */;
+			buildConfigurationList = 886AF1CF26F48A6800528C90 /* Build configuration list for PBXNativeTarget "Memorize" */;
 			buildPhases = (
-				886AF19C26F4891D00528C90 /* Sources */,
-				886AF19D26F4891D00528C90 /* Frameworks */,
-				886AF19E26F4891D00528C90 /* Resources */,
+				886AF1BC26F48A6700528C90 /* Sources */,
+				886AF1BD26F48A6700528C90 /* Frameworks */,
+				886AF1BE26F48A6700528C90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SwiftUI程序";
-			productName = "SwiftUI程序";
-			productReference = 886AF1A026F4891D00528C90 /* SwiftUI程序.app */;
+			name = Memorize;
+			productName = Memorize;
+			productReference = 886AF1C026F48A6700528C90 /* Memorize.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		886AF19826F4891D00528C90 /* Project object */ = {
+		886AF1B826F48A6700528C90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					886AF19F26F4891D00528C90 = {
+					886AF1BF26F48A6700528C90 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 886AF19B26F4891D00528C90 /* Build configuration list for PBXProject "SwiftUI程序" */;
+			buildConfigurationList = 886AF1BB26F48A6700528C90 /* Build configuration list for PBXProject "Memorize" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,55 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 886AF19726F4891D00528C90;
-			productRefGroup = 886AF1A126F4891D00528C90 /* Products */;
+			mainGroup = 886AF1B726F48A6700528C90;
+			productRefGroup = 886AF1C126F48A6700528C90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				886AF19F26F4891D00528C90 /* SwiftUI程序 */,
+				886AF1BF26F48A6700528C90 /* Memorize */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		886AF19E26F4891D00528C90 /* Resources */ = {
+		886AF1BE26F48A6700528C90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				886AF1B026F4891E00528C90 /* LaunchScreen.storyboard in Resources */,
-				886AF1AD26F4891E00528C90 /* Preview Assets.xcassets in Resources */,
-				886AF1AA26F4891E00528C90 /* Assets.xcassets in Resources */,
+				886AF1CB26F48A6800528C90 /* Preview Assets.xcassets in Resources */,
+				886AF1C826F48A6800528C90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		886AF19C26F4891D00528C90 /* Sources */ = {
+		886AF1BC26F48A6700528C90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				886AF1A426F4891D00528C90 /* AppDelegate.swift in Sources */,
-				886AF1A626F4891D00528C90 /* SceneDelegate.swift in Sources */,
-				886AF1A826F4891D00528C90 /* ContentView.swift in Sources */,
+				886AF1C626F48A6700528C90 /* ContentView.swift in Sources */,
+				886AF1C426F48A6700528C90 /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		886AF1AE26F4891E00528C90 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				886AF1AF26F4891E00528C90 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		886AF1B226F4891E00528C90 /* Debug */ = {
+		886AF1CD26F48A6800528C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		886AF1B326F4891E00528C90 /* Release */ = {
+		886AF1CE26F48A6800528C90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,40 +262,42 @@
 			};
 			name = Release;
 		};
-		886AF1B526F4891E00528C90 /* Debug */ = {
+		886AF1D026F48A6800528C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI程序/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI程序/Info.plist";
+				INFOPLIST_FILE = Memorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wy.SwiftUI--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wy.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		886AF1B626F4891E00528C90 /* Release */ = {
+		886AF1D126F48A6800528C90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI程序/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI程序/Info.plist";
+				INFOPLIST_FILE = Memorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wy.SwiftUI--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wy.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		886AF19B26F4891D00528C90 /* Build configuration list for PBXProject "SwiftUI程序" */ = {
+		886AF1BB26F48A6700528C90 /* Build configuration list for PBXProject "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				886AF1B226F4891E00528C90 /* Debug */,
-				886AF1B326F4891E00528C90 /* Release */,
+				886AF1CD26F48A6800528C90 /* Debug */,
+				886AF1CE26F48A6800528C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		886AF1B426F4891E00528C90 /* Build configuration list for PBXNativeTarget "SwiftUI程序" */ = {
+		886AF1CF26F48A6800528C90 /* Build configuration list for PBXNativeTarget "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				886AF1B526F4891E00528C90 /* Debug */,
-				886AF1B626F4891E00528C90 /* Release */,
+				886AF1D026F48A6800528C90 /* Debug */,
+				886AF1D126F48A6800528C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 886AF19826F4891D00528C90 /* Project object */;
+	rootObject = 886AF1B826F48A6700528C90 /* Project object */;
 }
