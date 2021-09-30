@@ -7,8 +7,12 @@ class MediaItem {
     }
 }
 
-class Movie: MediaItem {
+class Movie: MediaItem, CustomStringConvertible {
     var genre: String
+    var description: String {
+        return "Movie name:\(self.name) genre:\(self.genre)"
+    }
+    
     init(name: String, genre: String) {
         self.genre = genre
         super.init(name: name)
@@ -39,28 +43,16 @@ let library: [MediaItem] = [
     Game(name: "The Bridge", developer: "The Quantum Astrophysicists Guild")
 ]
 
-var movieCount = 0
-var musicCount = 0
-var gameCount = 0
-
-//library.forEach({mediaItem in
-//    if mediaItem is Movie {
-//        movieCount += 1
-//    } else if mediaItem is Music {
-//        musicCount += 1
-//    } else if mediaItem is Game {
-//        gameCount += 1
-//    }
-//})
+let movie1 = library[0] as! Movie
+print(movie1)
 
 for mediaItem in library {
-    if mediaItem is Movie {
-        movieCount += 1
-    } else if mediaItem is Music {
-        musicCount += 1
-    } else if mediaItem is Game {
-        gameCount += 1
+    if let movie = mediaItem as? Movie {
+        print("Movie name:\(movie.name) genre:\(movie.genre)")
+    } else if let music = mediaItem as? Music {
+        print("Music name:\(music.name) artist:\(music.artist)")
+    } else if let game = mediaItem as? Game {
+        print("Game name:\(game.name) developer:\(game.developer)")
     }
 }
 
-print("movieCount:\(movieCount), musicCount:\(musicCount), gameCount:\(gameCount)")
