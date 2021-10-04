@@ -13,6 +13,12 @@
 		881B77522709DA030078BBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881B77502709DA030078BBDD /* Main.storyboard */; };
 		881B77542709DA040078BBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881B77532709DA040078BBDD /* Assets.xcassets */; };
 		881B77572709DA040078BBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881B77552709DA040078BBDD /* LaunchScreen.storyboard */; };
+		88955A34270A9332000D6526 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88955A33270A9332000D6526 /* ShareView.swift */; };
+		88955A38270A9F3A000D6526 /* wechat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88955A35270A9F39000D6526 /* wechat.jpeg */; };
+		88955A39270A9F3A000D6526 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 88955A36270A9F39000D6526 /* a.png */; };
+		88955A3A270A9F3A000D6526 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 88955A37270A9F3A000D6526 /* qq.png */; };
+		88955A3C270A9F4A000D6526 /* mail.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88955A3B270A9F4A000D6526 /* mail.jpeg */; };
+		88955A3E270AA10F000D6526 /* close.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88955A3D270AA10F000D6526 /* close.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		881B77532709DA040078BBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881B77562709DA040078BBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		881B77582709DA040078BBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88955A33270A9332000D6526 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+		88955A35270A9F39000D6526 /* wechat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wechat.jpeg; sourceTree = "<group>"; };
+		88955A36270A9F39000D6526 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		88955A37270A9F3A000D6526 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		88955A3B270A9F4A000D6526 /* mail.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mail.jpeg; sourceTree = "<group>"; };
+		88955A3D270AA10F000D6526 /* close.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = close.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +71,13 @@
 				881B774A2709DA030078BBDD /* AppDelegate.swift */,
 				881B774C2709DA030078BBDD /* SceneDelegate.swift */,
 				881B774E2709DA030078BBDD /* ViewController.swift */,
+				88955A33270A9332000D6526 /* ShareView.swift */,
 				881B77502709DA030078BBDD /* Main.storyboard */,
+				88955A36270A9F39000D6526 /* a.png */,
+				88955A37270A9F3A000D6526 /* qq.png */,
+				88955A35270A9F39000D6526 /* wechat.jpeg */,
+				88955A3B270A9F4A000D6526 /* mail.jpeg */,
+				88955A3D270AA10F000D6526 /* close.jpg */,
 				881B77532709DA040078BBDD /* Assets.xcassets */,
 				881B77552709DA040078BBDD /* LaunchScreen.storyboard */,
 				881B77582709DA040078BBDD /* Info.plist */,
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88955A3C270A9F4A000D6526 /* mail.jpeg in Resources */,
 				881B77572709DA040078BBDD /* LaunchScreen.storyboard in Resources */,
+				88955A3A270A9F3A000D6526 /* qq.png in Resources */,
 				881B77542709DA040078BBDD /* Assets.xcassets in Resources */,
 				881B77522709DA030078BBDD /* Main.storyboard in Resources */,
+				88955A39270A9F3A000D6526 /* a.png in Resources */,
+				88955A3E270AA10F000D6526 /* close.jpg in Resources */,
+				88955A38270A9F3A000D6526 /* wechat.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88955A34270A9332000D6526 /* ShareView.swift in Sources */,
 				881B774F2709DA030078BBDD /* ViewController.swift in Sources */,
 				881B774B2709DA030078BBDD /* AppDelegate.swift in Sources */,
 				881B774D2709DA030078BBDD /* SceneDelegate.swift in Sources */,
@@ -295,8 +319,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,8 +348,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
