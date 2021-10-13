@@ -43,6 +43,14 @@ class HttpRequestCenter: NSObject {
                     } else {
                         news.url = "http:" + dic["url"]!
                     }
+                    if news.title!.contains("新冠") || news.title!.contains("新型冠状")
+                        || news.title!.contains("疫") || news.title!.uppercased().contains("COVID"){
+                        continue
+                    }
+                    if news.desc!.contains("新冠") || news.desc!.contains("新型冠状")
+                        || news.desc!.contains("疫") || news.desc!.uppercased().contains("COVID"){
+                        continue
+                    }
                     data.append(news)
                 }
                 responseClosure(true, data)
