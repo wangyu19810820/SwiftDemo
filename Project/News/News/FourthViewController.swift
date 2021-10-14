@@ -86,7 +86,6 @@ class FourthViewController: UIViewController {
                 self.page += 1
                 self.tableView.reloadData()
                 self.loadMoreEnable = true
-                self.refreshControl.endRefreshing()
             }
         }
     }
