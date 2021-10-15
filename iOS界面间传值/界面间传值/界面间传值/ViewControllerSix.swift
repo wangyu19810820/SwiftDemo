@@ -33,4 +33,7 @@ class ViewControllerSix: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
 
+    deinit {
+        print("ViewControllerSix deinit")
+    }
 }
