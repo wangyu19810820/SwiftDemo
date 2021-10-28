@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-HappyChat/Pods-HappyChat-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework

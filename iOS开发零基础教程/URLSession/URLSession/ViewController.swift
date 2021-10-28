@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -43,6 +44,33 @@ class ViewController: UIViewController {
     }
 
     @objc private func clickButton() {
+        let urlString = "https://raw.githubusercontent.com/xiaoyouxinqing/Learn-iOS-from-Zero/main/API/NewsExample/NewsList.json"
+//        AF.request(
+//            urlString,
+//            method: .post,
+//            parameters: ["page": 1],
+//            encoding: JSONEncoding.default,
+//            headers: ["Token": "ajfiifjafo"]
+        AF.request(
+            urlString,
+            method: .get,
+            parameters: ["page": 1],
+            encoding: URLEncoding.default
+        ).responseData { response in
+            print(response.result)
+            print("Is main thread: \(Thread.isMainThread)")
+            switch response.result {
+            case let .success(data):
+                if let list = try? JSONDecoder().decode(NewsList.self, from: data) {
+                    self.updateText2(list.displayText)
+                }
+            case let .failure(error):
+                self.updateText2(error.localizedDescription)
+            }
+        }
+    }
+    
+    @objc private func clickButton1() {
         let url = URL(string: "https://raw.githubusercontent.com/xiaoyouxinqing/Learn-iOS-from-Zero/main/API/NewsExample/NewsList.json")!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
@@ -81,6 +109,10 @@ class ViewController: UIViewController {
         DispatchQueue.main.async {
             self.label.text = text
         }
+    }
+    
+    private func updateText2(_ text: String) {
+        self.label.text = text
     }
 }
 
